@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="~{layout::head}">
+
+</head>
+<body>
+<nav th:replace="~{layout::menu}" ></nav>
+</body>
+<div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Nueva Password</label>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword">
+    </div>
+</div>
+<div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Repita nuevo Password</label>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword2">
+    </div>
+</div>
+<div>
+    <button type="button" class="btn btn-success">Guardar</button>
+</div>
+</html>
